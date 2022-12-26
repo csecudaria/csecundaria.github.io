@@ -29,6 +29,8 @@
 .templateRavel .t_text f {
   font-weight: bold;
   color: var(--fcolor);
+  color: var(--ccolor);
+  color: var(--ppcolor);
 }
 
 .templateRavel .t_text hr {
@@ -131,6 +133,8 @@
 
 .templateRavel .t_historico .t_content .hclose:hover {
   color: var(--fcolor);
+  color: var(--ccolor);
+  color: var(--ppcolor);
 }
 
 .templateRavel .t_historico .etiq {
@@ -288,6 +292,8 @@
   width: 380px;
   height: auto;
   border: 4px var(--fcolor) solid;
+  border: 4px var(--ccolor) solid;
+  border: 4px var(--ppcolor) solid;
   border-radius: 20px;
   padding: 20px;
   -webkit-transform: translate(-150px, -100px);
@@ -388,6 +394,8 @@
   --fundo: #fdf4df;
   --letra: #000;
   --fcolor: #3e83a3;
+  --ccolor: #808080;
+  --ppcolor: #687d15;
   --filtro: invert(48%) sepia(32%) saturate(727%) hue-rotate(154deg) brightness(90%) contrast(91%);
 }
 
