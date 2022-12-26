@@ -29,7 +29,15 @@
 .templateRavel .t_text f {
   font-weight: bold;
   color: var(--fcolor);
+}
+
+.templateRavel .t_text c {
+  font-weight: bold;
   color: var(--ccolor);
+}
+
+.templateRavel .t_text pp {
+  font-weight: bold;
   color: var(--ppcolor);
 }
 
@@ -133,8 +141,6 @@
 
 .templateRavel .t_historico .t_content .hclose:hover {
   color: var(--fcolor);
-  color: var(--ccolor);
-  color: var(--ppcolor);
 }
 
 .templateRavel .t_historico .etiq {
@@ -292,8 +298,6 @@
   width: 380px;
   height: auto;
   border: 4px var(--fcolor) solid;
-  border: 4px var(--ccolor) solid;
-  border: 4px var(--ppcolor) solid;
   border-radius: 20px;
   padding: 20px;
   -webkit-transform: translate(-150px, -100px);
