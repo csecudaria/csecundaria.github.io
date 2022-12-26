@@ -381,6 +381,16 @@
   --filtro: invert(48%) sepia(32%) saturate(727%) hue-rotate(154deg) brightness(90%) contrast(91%);
 }
 
+.templateRavel.kain {
+  --capa: url(https://cdn.discordapp.com/attachments/672261859642048522/1052419268349800508/template.png);
+  --rodape: url(https://cdn.discordapp.com/attachments/672261859642048522/1056754380373770320/rodape.png);
+  --historico: url(https://cdn.discordapp.com/attachments/672261859642048522/1056754380130504765/historico.jpg);
+  --fundo: #fdf4df;
+  --letra: #000;
+  --fcolor: #3e83a3;
+  --filtro: invert(48%) sepia(32%) saturate(727%) hue-rotate(154deg) brightness(90%) contrast(91%);
+}
+
 .templateRavel.lucy {
   --capa: url(https://cdn.discordapp.com/attachments/937414824122540045/963179016200781895/unknown.png);
   --rodape: url(https://cdn.discordapp.com/attachments/807064384605519904/958557226396713022/latest.png);
